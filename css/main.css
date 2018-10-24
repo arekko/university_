@@ -136,7 +136,6 @@ figure img {
 }
 
 figure figcaption {
-
     width: 100%;
     position: absolute;
     top: 0;
@@ -146,9 +145,7 @@ figure figcaption {
 }
 
 figure figcaption h3 {
-
     padding-left: 10px;
-
 }
 
 
@@ -173,10 +170,8 @@ aside {
 
 @media only screen and (max-width: 35em) {
     body {
-        max-width: 60em;
         margin: auto;
         flex-direction: column;
-        background-color: red;
     }
 
     ul {
@@ -189,6 +184,10 @@ aside {
     }
     aside {
         width: 100%;
+    }
+    header h1 {
+
+        padding:0 0 0 6em;
     }
 
 
