@@ -176,8 +176,23 @@ aside {
 
     ul {
         display: flex;
+        flex-shrink: 1;
+    }
+    li {
+        width: 100%;
 
     }
+    figure {
+        width: 100%;
+    }
+
+    .main-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: normal;
+
+    }
+
 
     main {
         width: 100%;
